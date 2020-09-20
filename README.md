@@ -19,3 +19,13 @@ source ./venv/bin/activate
 deactivate
 #Authentication
 pip install flask-JWT
+
+
+#To run
+
+cd 3_SQLAlChemyWithJWT/code/
+python app.py
+
+#To Test
+Import Flask_Testing.postman_collection.json in postman
+and test all Rest APIs
