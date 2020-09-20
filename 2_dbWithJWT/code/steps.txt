@@ -1,0 +1,15 @@
+pip install -r requirements.txt
+pip install requests
+pip install virtualenv
+
+#Create a Virtual Env
+virtualenv venv --python=python3.7
+#Activate a Virtual Env
+#Linux
+source ./venv/bin/activate
+#Windows
+./venv/Scripts/activate.bat
+#DeActivate a Virtual Env
+deactivate
+#Authentication
+pip install flask-JWT
