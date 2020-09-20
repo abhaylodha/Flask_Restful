@@ -1,23 +1,24 @@
-pip install Flask
-pip install Flask-JWT
-pip install Flask-RESTful
-pip install Flask-SQLAlchemy
+# Major packages to download
+## pip install Flask
+## pip install Flask-JWT
+## pip install Flask-RESTful
+## pip install Flask-SQLAlchemy
 
-pip install -r requirements.txt
-pip install requests
-pip install virtualenv
+## pip install -r requirements.txt
+## pip install requests
+## pip install virtualenv
 
-#Create a Virtual Env
-virtualenv venv --python=python3.7
-#Activate a Virtual Env
-#Linux
-source ./venv/bin/activate
-#Windows
-./venv/Scripts/activate.bat
-#DeActivate a Virtual Env
-deactivate
-#Authentication
-pip install flask-JWT
+# Create a Virtual Env
+## virtualenv venv --python=python3.7
+# Activate a Virtual Env
+# For Linux
+## source ./venv/bin/activate
+# For Windows
+## ./venv/Scripts/activate.bat
+# DeActivate a Virtual Env
+## deactivate
+# Authentication
+## pip install flask-JWT
 
 # To run
 
