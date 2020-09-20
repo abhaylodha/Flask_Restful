@@ -3,7 +3,6 @@ pip install Flask-JWT
 pip install Flask-RESTful
 pip install Flask-SQLAlchemy
 
-
 pip install -r requirements.txt
 pip install requests
 pip install virtualenv
@@ -20,12 +19,18 @@ deactivate
 #Authentication
 pip install flask-JWT
 
-
-#To run
+# To run
 
 cd 3_SQLAlChemyWithJWT/code/
+
+## and execute
+
 python app.py
 
-#To Test
-Import Flask_Testing.postman_collection.json in postman
-and test all Rest APIs
+# To Test
+
+## Import
+
+Flask_Testing.postman_collection.json in postman
+
+## and test all Rest APIs
